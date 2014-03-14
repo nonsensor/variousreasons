@@ -1,0 +1,69 @@
+@import "bootstrap/normalize.less";
+@import "icons.less";
+@import "embed.less";
+
+@minibreak: 30em;
+@firstbreak: 40em;
+@secondbreak: 60em;
+@global-padding: 20px;
+
+body {
+	font-family: "Karla";
+	color: #fff;
+	background: url(../img/sh1000.jpg) center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body * {
+	box-sizing: border-box;
+}
+
+.section {
+	background: #222;
+}
+
+.icon-row {
+	padding-top: 3em;
+	padding-bottom: 3em;
+	div {
+		width: 31%;
+		display: inline-block;
+		text-align: center;
+	}
+}
+
+.vicon {
+	display: block;
+	font-size: 3em;
+	@media only screen and (min-width : @minibreak) {
+		font-size: 5em;
+	}
+}
+
+.blocky {
+	width: 100%;
+	padding: @global-padding/2 @global-padding;
+	h2 {
+		font-size: 1.2em;
+		font-weight: normal;
+	}
+}
+
+h1 {
+	margin: 0;
+	font-size: 5em;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.video-wrap {
+	@media only screen and (min-width : @secondbreak) { 
+		width: 70%;
+		margin: 0 auto;
+	}
+}

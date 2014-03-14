@@ -1,0 +1,315 @@
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+@font-face {
+  font-family: 'variousicons';
+  src: url('../fonts/variousicons.eot?-pb9ff6');
+  src: url('../fonts/variousicons.eot?#iefix-pb9ff6') format('embedded-opentype'), url('../fonts/variousicons.woff?-pb9ff6') format('woff'), url('../fonts/variousicons.ttf?-pb9ff6') format('truetype'), url('../fonts/variousicons.svg?-pb9ff6#variousicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'variousicons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-brain:before {
+  content: "\e278";
+}
+.icon-pyramid:before {
+  content: "\e26a";
+}
+.icon-cube:before {
+  content: "\e268";
+}
+.icon-lamp:before {
+  content: "\e24b";
+}
+.icon-magnet:before {
+  content: "\e244";
+}
+.icon-soundcloud:before {
+  content: "\e4cc";
+}
+.icon-apple:before {
+  content: "\e4c6";
+}
+.icon-vimeo2:before {
+  content: "\e4a6";
+}
+.icon-youtube:before {
+  content: "\e4a3";
+}
+.icon-twitter:before {
+  content: "\e49e";
+}
+.icon-facebook:before {
+  content: "\e499";
+}
+.icon-feed:before {
+  content: "\e4a1";
+}
+.icon-eye:before {
+  content: "\e2e1";
+}
+.icon-puzzle:before {
+  content: "\e270";
+}
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: "Karla";
+  color: #fff;
+  background: url(../img/sh1000.jpg) center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body * {
+  box-sizing: border-box;
+}
+.section {
+  background: #222;
+}
+.icon-row {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.icon-row div {
+  width: 31%;
+  display: inline-block;
+  text-align: center;
+}
+.vicon {
+  display: block;
+  font-size: 3em;
+}
+@media only screen and (min-width: 30em) {
+  .vicon {
+    font-size: 5em;
+  }
+}
+.blocky {
+  width: 100%;
+  padding: 10px 20px;
+}
+.blocky h2 {
+  font-size: 1.2em;
+  font-weight: normal;
+}
+h1 {
+  margin: 0;
+  font-size: 5em;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media only screen and (min-width: 60em) {
+  .video-wrap {
+    width: 70%;
+    margin: 0 auto;
+  }
+}

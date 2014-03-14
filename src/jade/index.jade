@@ -1,0 +1,33 @@
+doctype html
+html
+	head
+		title V A R I O U S R E A S O N S
+		link(href='http://fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic' rel='stylesheet',type='text/css')
+		link(href='css/style.css',rel='stylesheet',type='text/css')
+
+	body
+		.container
+			.section
+				.blocky
+					h1 Various Reasons
+			.icon-row
+				div
+					span.vicon.icon-pyramid
+				div
+					span.vicon.icon-cube
+				div
+					span.vicon.icon-brain
+			.section.news
+				include news
+			.section.video
+				.blocky
+					h2
+						strong Video
+						|&nbsp;The Agent
+				.video-wrap
+					.embed-container
+						iframe(src='https://player.vimeo.com/video/88504271',frameborder='0',webkitAllowFullScreen,mozallowfullscreen,allowFullScreen)
+		script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js")
+		script(src="js/jquery.fittext.js")
+		script.
+			$("h1").fitText();
